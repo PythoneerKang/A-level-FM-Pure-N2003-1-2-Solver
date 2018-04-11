@@ -5,4 +5,4 @@ while s_n >= 1e-20:
     s_n = 1/((n**2)+(n)+1) - 1/(4*(n**2)+ 2*(n)+ 1)
     n = n + 1
 
-print('n = ' + str(n-1))
+print('n = ' + str(int(n-2)))
